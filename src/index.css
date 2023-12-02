@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.Task-bar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.Task-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Task-bar li {
+  cursor: pointer;
+}
+.Task-bar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.Task-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Task-bar li {
+  cursor: pointer;
+}
+
+.App-content ul {
+  list-style: none; /* Remove default list style (dots) */
+  padding: 0; /* Remove default padding */
+}
+
+.App-content li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.App-content li.selected {
+  background-color: #ddd;
+}
